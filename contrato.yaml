@@ -1,0 +1,38 @@
+openapi: 3.0.0
+
+info: 
+  title: API StudentController
+  version: 1.0.0
+  description: API para obtener información de los usuarios
+
+servers:
+  - url: http://localhost:8080
+
+paths: 
+  /students:
+  getAll:
+  summary: Obtener todos los usuarios
+  responses:
+    '200': 
+      description: Mensaje de estudiante encontrado
+  getById:
+  summary: Obtener a un estudiante mediante su Id
+  responses:
+    '200':
+      description: Mensaje de estudiante encontrado
+  post:
+  summary: Crear un estudiante
+  responses:
+  '201':
+    description: Mensaje de estudiante creado exitosamente
+  put: 
+  summary: Actualizar un estudiante
+  responses:
+    '200':
+      description: Mensaje de estudiante actualizado exitosamente
+  Delete:
+  summary: Eliminar un estudiante
+  reponses:
+    '200':
+      description: Mensaje de estudiante eliminado correctamente
+          
