@@ -1,0 +1,28 @@
+{
+    "statuscode": 200,
+    "message": "Solicitud procesada correctamente",
+    "students":[
+        {
+            "ControlNumber":2026001,
+            "nombre": "Rodrigo Serrano Ramírez",
+            "email": "serrano_rodrigo@outlook.com",
+            "address":{
+                "calle": "Av. Insurgentes Sur 1234",
+                "neighborhood": "Del Valle",
+                "city": "Ciudad de México"
+            },
+            "phone": "55-2571-5753"
+        },
+        {
+            "ControlNumber":2026002,
+            "nombre": "Luis Pérez Sánchez",
+            "email": "luis.perez@estudiante.edu.mx",
+            "address":{
+                "calle": "Calle Morelos 123",
+                "neighborhood": "Centro Histórico",
+                "city": "Guadalajara"
+            },
+            "phone": "33-1892-2767"
+        }
+    ]
+}
